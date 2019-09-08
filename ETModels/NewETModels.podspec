@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NewETModels"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "NewETModels contains models required to build an ETApp."
 
   # This description is used to generate tags and improve search results.
@@ -94,7 +94,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes"
+  spec.source_files  = "Classes/*"
   spec.exclude_files = "Classes/Exclude"
 
   spec.swift_version = '4.0'
