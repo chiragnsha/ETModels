@@ -13,7 +13,7 @@ public struct User {
     public let name: String
 }
 
-extension User: Equatable, Hashable {
+public extension User: Equatable, Hashable {
     public static func == (lhs: User, rhs: User) -> Bool {
         return lhs.ID == rhs.ID
     }

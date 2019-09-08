@@ -18,13 +18,13 @@ public struct Expense {
     var involvedUsers: Set<User>
 }
 
-extension Expense: Equatable, Hashable {
+public extension Expense: Equatable, Hashable {
     public static func == (lhs: Expense, rhs: Expense) -> Bool {
         return lhs.expenseID == rhs.expenseID
     }
 }
 
-extension Expense {
+public extension Expense {
     func involvesuser(_ user: User) -> Bool {
         return (self.payee == user) || self.involvedUsers.contains(user)
     }
