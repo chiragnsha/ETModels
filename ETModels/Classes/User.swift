@@ -8,12 +8,10 @@
 
 import Foundation
 
-public struct User {
+public struct User: Equatable, Hashable {
     public let ID: UUID
     public let name: String
-}
-
-public extension User: Equatable, Hashable {
+    
     public static func == (lhs: User, rhs: User) -> Bool {
         return lhs.ID == rhs.ID
     }

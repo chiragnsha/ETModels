@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct Expense {
+public struct Expense: Equatable, Hashable {
     let expenseID: UUID = UUID()
     
     var expenseName: String
@@ -16,16 +16,13 @@ public struct Expense {
     
     var payee: User
     var involvedUsers: Set<User>
-}
-
-public extension Expense: Equatable, Hashable {
+    
     public static func == (lhs: Expense, rhs: Expense) -> Bool {
         return lhs.expenseID == rhs.expenseID
     }
-}
-
-public extension Expense {
-    func involvesuser(_ user: User) -> Bool {
+    
+    public func involvesuser(_ user: User) -> Bool {
         return (self.payee == user) || self.involvedUsers.contains(user)
     }
 }
+
