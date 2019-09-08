@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct User: Equatable, Hashable {
+open struct User: Equatable, Hashable {
     public let ID: UUID
     public let name: String
     

@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NewETModels"
-  spec.version      = "0.0.9"
+  spec.version      = "0.0.10"
   spec.summary      = "NewETModels contains models required to build an ETApp."
 
   # This description is used to generate tags and improve search results.
