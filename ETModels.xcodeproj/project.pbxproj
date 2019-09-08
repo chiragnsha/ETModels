@@ -13,6 +13,13 @@
 		6F5FCD1A2325028E003B8435 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FCD172325028E003B8435 /* Expense.swift */; };
 		6F5FCD1B2325028E003B8435 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FCD182325028E003B8435 /* User.swift */; };
 		6F5FCD1C2325028E003B8435 /* User+Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FCD192325028E003B8435 /* User+Hashable.swift */; };
+		6F5FCD2423250365003B8435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FCD2323250365003B8435 /* AppDelegate.swift */; };
+		6F5FCD2623250365003B8435 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FCD2523250365003B8435 /* ViewController.swift */; };
+		6F5FCD2923250365003B8435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5FCD2723250365003B8435 /* Main.storyboard */; };
+		6F5FCD2B2325036A003B8435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F5FCD2A2325036A003B8435 /* Assets.xcassets */; };
+		6F5FCD2E2325036A003B8435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5FCD2C2325036A003B8435 /* LaunchScreen.storyboard */; };
+		6F5FCD392325036B003B8435 /* ETModelAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FCD382325036B003B8435 /* ETModelAppTests.swift */; };
+		6F5FCD442325036B003B8435 /* ETModelAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FCD432325036B003B8435 /* ETModelAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +29,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6F5FCCFC23250249003B8435;
 			remoteInfo = ETModels;
+		};
+		6F5FCD352325036B003B8435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F5FCCF423250249003B8435 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F5FCD2023250365003B8435;
+			remoteInfo = ETModelApp;
+		};
+		6F5FCD402325036B003B8435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F5FCCF423250249003B8435 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F5FCD2023250365003B8435;
+			remoteInfo = ETModelApp;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -35,6 +56,19 @@
 		6F5FCD172325028E003B8435 /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		6F5FCD182325028E003B8435 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		6F5FCD192325028E003B8435 /* User+Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+Hashable.swift"; sourceTree = "<group>"; };
+		6F5FCD2123250365003B8435 /* ETModelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETModelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5FCD2323250365003B8435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F5FCD2523250365003B8435 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F5FCD2823250365003B8435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F5FCD2A2325036A003B8435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F5FCD2D2325036A003B8435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F5FCD2F2325036A003B8435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F5FCD342325036B003B8435 /* ETModelAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETModelAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5FCD382325036B003B8435 /* ETModelAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETModelAppTests.swift; sourceTree = "<group>"; };
+		6F5FCD3A2325036B003B8435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F5FCD3F2325036B003B8435 /* ETModelAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETModelAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5FCD432325036B003B8435 /* ETModelAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETModelAppUITests.swift; sourceTree = "<group>"; };
+		6F5FCD452325036B003B8435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +87,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6F5FCD1E23250365003B8435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5FCD312325036B003B8435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5FCD3C2325036B003B8435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +116,9 @@
 			children = (
 				6F5FCCFF23250249003B8435 /* ETModels */,
 				6F5FCD0A23250249003B8435 /* ETModelsTests */,
+				6F5FCD2223250365003B8435 /* ETModelApp */,
+				6F5FCD372325036B003B8435 /* ETModelAppTests */,
+				6F5FCD422325036B003B8435 /* ETModelAppUITests */,
 				6F5FCCFE23250249003B8435 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +128,9 @@
 			children = (
 				6F5FCCFD23250249003B8435 /* ETModels.framework */,
 				6F5FCD0623250249003B8435 /* ETModelsTests.xctest */,
+				6F5FCD2123250365003B8435 /* ETModelApp.app */,
+				6F5FCD342325036B003B8435 /* ETModelAppTests.xctest */,
+				6F5FCD3F2325036B003B8435 /* ETModelAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,6 +154,37 @@
 				6F5FCD0D23250249003B8435 /* Info.plist */,
 			);
 			path = ETModelsTests;
+			sourceTree = "<group>";
+		};
+		6F5FCD2223250365003B8435 /* ETModelApp */ = {
+			isa = PBXGroup;
+			children = (
+				6F5FCD2323250365003B8435 /* AppDelegate.swift */,
+				6F5FCD2523250365003B8435 /* ViewController.swift */,
+				6F5FCD2723250365003B8435 /* Main.storyboard */,
+				6F5FCD2A2325036A003B8435 /* Assets.xcassets */,
+				6F5FCD2C2325036A003B8435 /* LaunchScreen.storyboard */,
+				6F5FCD2F2325036A003B8435 /* Info.plist */,
+			);
+			path = ETModelApp;
+			sourceTree = "<group>";
+		};
+		6F5FCD372325036B003B8435 /* ETModelAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F5FCD382325036B003B8435 /* ETModelAppTests.swift */,
+				6F5FCD3A2325036B003B8435 /* Info.plist */,
+			);
+			path = ETModelAppTests;
+			sourceTree = "<group>";
+		};
+		6F5FCD422325036B003B8435 /* ETModelAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F5FCD432325036B003B8435 /* ETModelAppUITests.swift */,
+				6F5FCD452325036B003B8435 /* Info.plist */,
+			);
+			path = ETModelAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +237,59 @@
 			productReference = 6F5FCD0623250249003B8435 /* ETModelsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		6F5FCD2023250365003B8435 /* ETModelApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F5FCD462325036B003B8435 /* Build configuration list for PBXNativeTarget "ETModelApp" */;
+			buildPhases = (
+				6F5FCD1D23250365003B8435 /* Sources */,
+				6F5FCD1E23250365003B8435 /* Frameworks */,
+				6F5FCD1F23250365003B8435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ETModelApp;
+			productName = ETModelApp;
+			productReference = 6F5FCD2123250365003B8435 /* ETModelApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F5FCD332325036B003B8435 /* ETModelAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F5FCD492325036B003B8435 /* Build configuration list for PBXNativeTarget "ETModelAppTests" */;
+			buildPhases = (
+				6F5FCD302325036B003B8435 /* Sources */,
+				6F5FCD312325036B003B8435 /* Frameworks */,
+				6F5FCD322325036B003B8435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F5FCD362325036B003B8435 /* PBXTargetDependency */,
+			);
+			name = ETModelAppTests;
+			productName = ETModelAppTests;
+			productReference = 6F5FCD342325036B003B8435 /* ETModelAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F5FCD3E2325036B003B8435 /* ETModelAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F5FCD4C2325036B003B8435 /* Build configuration list for PBXNativeTarget "ETModelAppUITests" */;
+			buildPhases = (
+				6F5FCD3B2325036B003B8435 /* Sources */,
+				6F5FCD3C2325036B003B8435 /* Frameworks */,
+				6F5FCD3D2325036B003B8435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F5FCD412325036B003B8435 /* PBXTargetDependency */,
+			);
+			name = ETModelAppUITests;
+			productName = ETModelAppUITests;
+			productReference = 6F5FCD3F2325036B003B8435 /* ETModelAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -162,6 +307,17 @@
 					6F5FCD0523250249003B8435 = {
 						CreatedOnToolsVersion = 10.3;
 					};
+					6F5FCD2023250365003B8435 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					6F5FCD332325036B003B8435 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 6F5FCD2023250365003B8435;
+					};
+					6F5FCD3E2325036B003B8435 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 6F5FCD2023250365003B8435;
+					};
 				};
 			};
 			buildConfigurationList = 6F5FCCF723250249003B8435 /* Build configuration list for PBXProject "ETModels" */;
@@ -170,6 +326,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 6F5FCCF323250249003B8435;
 			productRefGroup = 6F5FCCFE23250249003B8435 /* Products */;
@@ -178,6 +335,9 @@
 			targets = (
 				6F5FCCFC23250249003B8435 /* ETModels */,
 				6F5FCD0523250249003B8435 /* ETModelsTests */,
+				6F5FCD2023250365003B8435 /* ETModelApp */,
+				6F5FCD332325036B003B8435 /* ETModelAppTests */,
+				6F5FCD3E2325036B003B8435 /* ETModelAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -191,6 +351,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6F5FCD0423250249003B8435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5FCD1F23250365003B8435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5FCD2E2325036A003B8435 /* LaunchScreen.storyboard in Resources */,
+				6F5FCD2B2325036A003B8435 /* Assets.xcassets in Resources */,
+				6F5FCD2923250365003B8435 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5FCD322325036B003B8435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5FCD3D2325036B003B8435 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -218,6 +402,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6F5FCD1D23250365003B8435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5FCD2623250365003B8435 /* ViewController.swift in Sources */,
+				6F5FCD2423250365003B8435 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5FCD302325036B003B8435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5FCD392325036B003B8435 /* ETModelAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5FCD3B2325036B003B8435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5FCD442325036B003B8435 /* ETModelAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -226,7 +435,36 @@
 			target = 6F5FCCFC23250249003B8435 /* ETModels */;
 			targetProxy = 6F5FCD0823250249003B8435 /* PBXContainerItemProxy */;
 		};
+		6F5FCD362325036B003B8435 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F5FCD2023250365003B8435 /* ETModelApp */;
+			targetProxy = 6F5FCD352325036B003B8435 /* PBXContainerItemProxy */;
+		};
+		6F5FCD412325036B003B8435 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F5FCD2023250365003B8435 /* ETModelApp */;
+			targetProxy = 6F5FCD402325036B003B8435 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F5FCD2723250365003B8435 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F5FCD2823250365003B8435 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F5FCD2C2325036A003B8435 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F5FCD2D2325036A003B8435 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6F5FCD0F23250249003B8435 /* Debug */ = {
@@ -438,6 +676,118 @@
 			};
 			name = Release;
 		};
+		6F5FCD472325036B003B8435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ETModelApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahaveer.ETModelApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F5FCD482325036B003B8435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ETModelApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahaveer.ETModelApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F5FCD4A2325036B003B8435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ETModelAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahaveer.ETModelAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ETModelApp.app/ETModelApp";
+			};
+			name = Debug;
+		};
+		6F5FCD4B2325036B003B8435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ETModelAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahaveer.ETModelAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ETModelApp.app/ETModelApp";
+			};
+			name = Release;
+		};
+		6F5FCD4D2325036B003B8435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ETModelAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahaveer.ETModelAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ETModelApp;
+			};
+			name = Debug;
+		};
+		6F5FCD4E2325036B003B8435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ETModelAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahaveer.ETModelAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ETModelApp;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -464,6 +814,33 @@
 			buildConfigurations = (
 				6F5FCD1523250249003B8435 /* Debug */,
 				6F5FCD1623250249003B8435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F5FCD462325036B003B8435 /* Build configuration list for PBXNativeTarget "ETModelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F5FCD472325036B003B8435 /* Debug */,
+				6F5FCD482325036B003B8435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F5FCD492325036B003B8435 /* Build configuration list for PBXNativeTarget "ETModelAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F5FCD4A2325036B003B8435 /* Debug */,
+				6F5FCD4B2325036B003B8435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F5FCD4C2325036B003B8435 /* Build configuration list for PBXNativeTarget "ETModelAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F5FCD4D2325036B003B8435 /* Debug */,
+				6F5FCD4E2325036B003B8435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
