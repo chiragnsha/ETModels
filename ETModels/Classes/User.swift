@@ -9,8 +9,8 @@
 import Foundation
 
 public struct User {
-    let ID: UUID
-    let name: String
+    public let ID: UUID
+    public let name: String
 }
 
 extension User: Equatable, Hashable {

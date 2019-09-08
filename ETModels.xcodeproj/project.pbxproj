@@ -20,6 +20,7 @@
 		6F5FCD2E2325036A003B8435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5FCD2C2325036A003B8435 /* LaunchScreen.storyboard */; };
 		6F5FCD392325036B003B8435 /* ETModelAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FCD382325036B003B8435 /* ETModelAppTests.swift */; };
 		6F5FCD442325036B003B8435 /* ETModelAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FCD432325036B003B8435 /* ETModelAppUITests.swift */; };
+		6F5FCD8A23257D49003B8435 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 6F5FCD8923257D49003B8435 /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		6F5FCD3F2325036B003B8435 /* ETModelAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETModelAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F5FCD432325036B003B8435 /* ETModelAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETModelAppUITests.swift; sourceTree = "<group>"; };
 		6F5FCD452325036B003B8435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F5FCD8923257D49003B8435 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		6F5FCCFF23250249003B8435 /* ETModels */ = {
 			isa = PBXGroup;
 			children = (
+				6F5FCD8923257D49003B8435 /* Classes */,
 				6F5FCD172325028E003B8435 /* Expense.swift */,
 				6F5FCD182325028E003B8435 /* User.swift */,
 				6F5FCD192325028E003B8435 /* User+Hashable.swift */,
@@ -347,6 +350,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5FCD8A23257D49003B8435 /* Classes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
