@@ -8,12 +8,12 @@
 
 import Foundation
 
-open struct User: Equatable, Hashable {
+public struct User: Equatable, Hashable {
     public let ID: UUID
     public let name: String
     
-    public init(_ user: User, _ name: String) {
-        self.user = user
+    public init(_ name: String) {
+        self.ID = UUID.init()
         self.name = name
     }
     
@@ -26,12 +26,16 @@ public class ClassUser: Equatable, Hashable {
     private let ID: UUID
     private let name: String
     
-    public init(_ user: User, _ name: String) {
-        self.user = user
+    public init(_ name: String) {
+        self.ID = UUID.init()
         self.name = name
     }
     
-    public static func == (lhs: User, rhs: User) -> Bool {
+    public static func == (lhs: ClassUser, rhs: ClassUser) -> Bool {
         return lhs.ID == rhs.ID
+    }
+    
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(self.ID)
     }
 }

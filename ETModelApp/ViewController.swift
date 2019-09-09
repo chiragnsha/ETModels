@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import ETModels
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let x = ClassUser.init("testing")
+        let y = User.init("testing")
     }
 
 

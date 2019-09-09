@@ -8,7 +8,7 @@
 
 import Foundation
 
-open struct Expense: Equatable, Hashable {
+public struct Expense: Equatable, Hashable {
     let expenseID: UUID = UUID()
     
     var expenseName: String

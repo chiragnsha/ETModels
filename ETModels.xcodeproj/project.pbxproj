@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F5E950B2326C1F600C2803F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E95082326C1F600C2803F /* User.swift */; };
+		6F5E950C2326C1F600C2803F /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E95092326C1F600C2803F /* Expense.swift */; };
+		6F5E950D2326C1F600C2803F /* User+Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E950A2326C1F600C2803F /* User+Hashable.swift */; };
 		6F5FCD0723250249003B8435 /* ETModels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5FCCFD23250249003B8435 /* ETModels.framework */; };
 		6F5FCD0C23250249003B8435 /* ETModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FCD0B23250249003B8435 /* ETModelsTests.swift */; };
 		6F5FCD0E23250249003B8435 /* ETModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5FCD0023250249003B8435 /* ETModels.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F5FCD1A2325028E003B8435 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FCD172325028E003B8435 /* Expense.swift */; };
-		6F5FCD1B2325028E003B8435 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FCD182325028E003B8435 /* User.swift */; };
-		6F5FCD1C2325028E003B8435 /* User+Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FCD192325028E003B8435 /* User+Hashable.swift */; };
 		6F5FCD2423250365003B8435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FCD2323250365003B8435 /* AppDelegate.swift */; };
 		6F5FCD2623250365003B8435 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FCD2523250365003B8435 /* ViewController.swift */; };
 		6F5FCD2923250365003B8435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5FCD2723250365003B8435 /* Main.storyboard */; };
@@ -20,7 +20,6 @@
 		6F5FCD2E2325036A003B8435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5FCD2C2325036A003B8435 /* LaunchScreen.storyboard */; };
 		6F5FCD392325036B003B8435 /* ETModelAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FCD382325036B003B8435 /* ETModelAppTests.swift */; };
 		6F5FCD442325036B003B8435 /* ETModelAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FCD432325036B003B8435 /* ETModelAppUITests.swift */; };
-		6F5FCD8A23257D49003B8435 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 6F5FCD8923257D49003B8435 /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,15 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F5E95082326C1F600C2803F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Classes/User.swift; sourceTree = "<group>"; };
+		6F5E95092326C1F600C2803F /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Expense.swift; path = Classes/Expense.swift; sourceTree = "<group>"; };
+		6F5E950A2326C1F600C2803F /* User+Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "User+Hashable.swift"; path = "Classes/User+Hashable.swift"; sourceTree = "<group>"; };
 		6F5FCCFD23250249003B8435 /* ETModels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ETModels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F5FCD0023250249003B8435 /* ETModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETModels.h; sourceTree = "<group>"; };
 		6F5FCD0123250249003B8435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F5FCD0623250249003B8435 /* ETModelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETModelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F5FCD0B23250249003B8435 /* ETModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETModelsTests.swift; sourceTree = "<group>"; };
 		6F5FCD0D23250249003B8435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F5FCD172325028E003B8435 /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
-		6F5FCD182325028E003B8435 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		6F5FCD192325028E003B8435 /* User+Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+Hashable.swift"; sourceTree = "<group>"; };
 		6F5FCD2123250365003B8435 /* ETModelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETModelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F5FCD2323250365003B8435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F5FCD2523250365003B8435 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,7 +69,6 @@
 		6F5FCD3F2325036B003B8435 /* ETModelAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETModelAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F5FCD432325036B003B8435 /* ETModelAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETModelAppUITests.swift; sourceTree = "<group>"; };
 		6F5FCD452325036B003B8435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F5FCD8923257D49003B8435 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,10 +138,9 @@
 		6F5FCCFF23250249003B8435 /* ETModels */ = {
 			isa = PBXGroup;
 			children = (
-				6F5FCD8923257D49003B8435 /* Classes */,
-				6F5FCD172325028E003B8435 /* Expense.swift */,
-				6F5FCD182325028E003B8435 /* User.swift */,
-				6F5FCD192325028E003B8435 /* User+Hashable.swift */,
+				6F5E95092326C1F600C2803F /* Expense.swift */,
+				6F5E95082326C1F600C2803F /* User.swift */,
+				6F5E950A2326C1F600C2803F /* User+Hashable.swift */,
 				6F5FCD0023250249003B8435 /* ETModels.h */,
 				6F5FCD0123250249003B8435 /* Info.plist */,
 			);
@@ -350,7 +347,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F5FCD8A23257D49003B8435 /* Classes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,9 +388,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F5FCD1C2325028E003B8435 /* User+Hashable.swift in Sources */,
-				6F5FCD1B2325028E003B8435 /* User.swift in Sources */,
-				6F5FCD1A2325028E003B8435 /* Expense.swift in Sources */,
+				6F5E950D2326C1F600C2803F /* User+Hashable.swift in Sources */,
+				6F5E950C2326C1F600C2803F /* Expense.swift in Sources */,
+				6F5E950B2326C1F600C2803F /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
